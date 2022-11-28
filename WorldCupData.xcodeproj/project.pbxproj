@@ -7,18 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A1EC8CB2932C70B00DA4A3D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1EC8CA2932C70B00DA4A3D /* LoginView.swift */; };
+		4A1EC8CD2932CE6800DA4A3D /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1EC8CC2932CE6800DA4A3D /* Token.swift */; };
+		4A1EC8CF2932CF8200DA4A3D /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1EC8CE2932CF8200DA4A3D /* LoginRequest.swift */; };
+		4ABEE3F12933D5A0003021A1 /* TeamListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABEE3F02933D5A0003021A1 /* TeamListView.swift */; };
+		4ABEE3F32933DEB9003021A1 /* MatchesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABEE3F22933DEB9003021A1 /* MatchesListView.swift */; };
+		4ABEE3F52933DF6F003021A1 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABEE3F42933DF6F003021A1 /* Match.swift */; };
+		4ABEE3F82933EAA1003021A1 /* WrapperStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABEE3F72933EAA1003021A1 /* WrapperStruct.swift */; };
 		4ADF3969292FB26E00128D08 /* WorldCupDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF3968292FB26E00128D08 /* WorldCupDataApp.swift */; };
-		4ADF396B292FB26E00128D08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF396A292FB26E00128D08 /* ContentView.swift */; };
+		4ADF396B292FB26E00128D08 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF396A292FB26E00128D08 /* MainView.swift */; };
 		4ADF396D292FB26F00128D08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ADF396C292FB26F00128D08 /* Assets.xcassets */; };
 		4ADF3970292FB26F00128D08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ADF396F292FB26F00128D08 /* Preview Assets.xcassets */; };
+		4ADF3978292FB31F00128D08 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 4ADF3977292FB31F00128D08 /* ComposableArchitecture */; };
+		4ADF397A292FB31F00128D08 /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = 4ADF3979292FB31F00128D08 /* Dependencies */; };
+		4ADF397F292FB37E00128D08 /* WorldCupFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF397E292FB37E00128D08 /* WorldCupFeature.swift */; };
+		4ADF3982292FB40A00128D08 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF3981292FB40A00128D08 /* Team.swift */; };
+		4ADF3986292FCE8900128D08 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF3985292FCE8900128D08 /* APIResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A1EC8CA2932C70B00DA4A3D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4A1EC8CC2932CE6800DA4A3D /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		4A1EC8CE2932CF8200DA4A3D /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		4ABEE3F02933D5A0003021A1 /* TeamListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListView.swift; sourceTree = "<group>"; };
+		4ABEE3F22933DEB9003021A1 /* MatchesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesListView.swift; sourceTree = "<group>"; };
+		4ABEE3F42933DF6F003021A1 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		4ABEE3F72933EAA1003021A1 /* WrapperStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrapperStruct.swift; sourceTree = "<group>"; };
 		4ADF3965292FB26E00128D08 /* WorldCupData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldCupData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ADF3968292FB26E00128D08 /* WorldCupDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupDataApp.swift; sourceTree = "<group>"; };
-		4ADF396A292FB26E00128D08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4ADF396A292FB26E00128D08 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		4ADF396C292FB26F00128D08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4ADF396F292FB26F00128D08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4ADF397E292FB37E00128D08 /* WorldCupFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupFeature.swift; sourceTree = "<group>"; };
+		4ADF3981292FB40A00128D08 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		4ADF3984292FCA4200128D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4ADF3985292FCE8900128D08 /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +49,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ADF3978292FB31F00128D08 /* ComposableArchitecture in Frameworks */,
+				4ADF397A292FB31F00128D08 /* Dependencies in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4ABEE3F62933EA8C003021A1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4ABEE3F72933EAA1003021A1 /* WrapperStruct.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		4ADF395C292FB26E00128D08 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +84,13 @@
 		4ADF3967292FB26E00128D08 /* WorldCupData */ = {
 			isa = PBXGroup;
 			children = (
+				4ABEE3F62933EA8C003021A1 /* Utils */,
+				4ADF3984292FCA4200128D08 /* Info.plist */,
+				4ADF3983292FB6FD00128D08 /* Request */,
+				4ADF3980292FB3FE00128D08 /* Models */,
+				4ADF397C292FB35500128D08 /* Views */,
+				4ADF397B292FB34700128D08 /* Features */,
 				4ADF3968292FB26E00128D08 /* WorldCupDataApp.swift */,
-				4ADF396A292FB26E00128D08 /* ContentView.swift */,
 				4ADF396C292FB26F00128D08 /* Assets.xcassets */,
 				4ADF396E292FB26F00128D08 /* Preview Content */,
 			);
@@ -65,6 +103,44 @@
 				4ADF396F292FB26F00128D08 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4ADF397B292FB34700128D08 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				4ADF397E292FB37E00128D08 /* WorldCupFeature.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		4ADF397C292FB35500128D08 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4ADF396A292FB26E00128D08 /* MainView.swift */,
+				4A1EC8CA2932C70B00DA4A3D /* LoginView.swift */,
+				4ABEE3F02933D5A0003021A1 /* TeamListView.swift */,
+				4ABEE3F22933DEB9003021A1 /* MatchesListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4ADF3980292FB3FE00128D08 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4ADF3981292FB40A00128D08 /* Team.swift */,
+				4ADF3985292FCE8900128D08 /* APIResponse.swift */,
+				4A1EC8CC2932CE6800DA4A3D /* Token.swift */,
+				4A1EC8CE2932CF8200DA4A3D /* LoginRequest.swift */,
+				4ABEE3F42933DF6F003021A1 /* Match.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4ADF3983292FB6FD00128D08 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +159,10 @@
 			dependencies = (
 			);
 			name = WorldCupData;
+			packageProductDependencies = (
+				4ADF3977292FB31F00128D08 /* ComposableArchitecture */,
+				4ADF3979292FB31F00128D08 /* Dependencies */,
+			);
 			productName = WorldCupData;
 			productReference = 4ADF3965292FB26E00128D08 /* WorldCupData.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +191,9 @@
 				Base,
 			);
 			mainGroup = 4ADF395C292FB26E00128D08;
+			packageReferences = (
+				4ADF3976292FB31F00128D08 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 4ADF3966292FB26E00128D08 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +220,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ADF396B292FB26E00128D08 /* ContentView.swift in Sources */,
+				4A1EC8CF2932CF8200DA4A3D /* LoginRequest.swift in Sources */,
+				4ADF3982292FB40A00128D08 /* Team.swift in Sources */,
+				4ABEE3F32933DEB9003021A1 /* MatchesListView.swift in Sources */,
+				4A1EC8CB2932C70B00DA4A3D /* LoginView.swift in Sources */,
+				4ABEE3F82933EAA1003021A1 /* WrapperStruct.swift in Sources */,
+				4ADF396B292FB26E00128D08 /* MainView.swift in Sources */,
+				4ABEE3F12933D5A0003021A1 /* TeamListView.swift in Sources */,
+				4ADF397F292FB37E00128D08 /* WorldCupFeature.swift in Sources */,
+				4ADF3986292FCE8900128D08 /* APIResponse.swift in Sources */,
+				4ABEE3F52933DF6F003021A1 /* Match.swift in Sources */,
 				4ADF3969292FB26E00128D08 /* WorldCupDataApp.swift in Sources */,
+				4A1EC8CD2932CE6800DA4A3D /* Token.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +363,7 @@
 				DEVELOPMENT_TEAM = JAKAGDSG69;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WorldCupData/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +393,7 @@
 				DEVELOPMENT_TEAM = JAKAGDSG69;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WorldCupData/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +434,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4ADF3976292FB31F00128D08 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4ADF3977292FB31F00128D08 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4ADF3976292FB31F00128D08 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		4ADF3979292FB31F00128D08 /* Dependencies */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4ADF3976292FB31F00128D08 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = Dependencies;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4ADF395D292FB26E00128D08 /* Project object */;
 }
